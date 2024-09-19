@@ -5,8 +5,9 @@
   "main": "api/index.js",
   "type": "module",
   "scripts": {
-     "dev": "nodemon api/index.js",
-    "start" : "node api/index.js"
+    "dev": "nodemon api/index.js",
+    "start": "node api/index.js",
+    "frontend": "vite"
   },
   "dependencies": {
     "@radix-ui/react-label": "^2.1.0",
@@ -15,7 +16,9 @@
     "@radix-ui/react-slot": "^1.1.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "dotenv": "^16.4.5",
     "lucide-react": "^0.441.0",
+    "mongoose": "^8.6.3",
     "nodemon": "^3.1.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
