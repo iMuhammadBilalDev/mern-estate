@@ -26,5 +26,5 @@ app.use((err,req,res, next)=>{
         success:false,
         statuscode,
         message
-    })
+    });
 })

@@ -33,6 +33,7 @@ function SignUp() {
    seterror(null)
    navigate('/signin')
   }
+
    catch(error){
    setloading(false);
    seterror(error.message);
@@ -64,4 +65,4 @@ function SignUp() {
   )
 }
 
-export default SignUp
+export default SignUp;
